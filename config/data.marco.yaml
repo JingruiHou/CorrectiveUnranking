@@ -1,0 +1,14 @@
+# data
+dev_qrel_path: ../data/marco/new_dataset/dev.small.qrel.tsv
+dev_data_path: ../data/marco/new_dataset/dev.small.tsv
+
+train_data_path: ../data/marco/new_dataset/train.tsv
+test_data_path: ../data/marco/new_dataset/test.tsv
+test_qrel_path: ../data/marco/new_dataset/qrel.tsv
+
+prediction_output_path: ../data/results/marco/predictions/
+model_save_path: ../data/results/marco/models_saved/{}_Stage{}_Epoch{}.pth
+
+forgetting_samples_path: ../data/marco/new_dataset/forgetting_samples.pkl
+forgetting_substitute_samples_path: ../data/marco/new_dataset/forgetting_substitute_samples.pkl
+dataset_name: msmarco
